@@ -6,7 +6,7 @@ function actualFlipping() {
 	// body...
 	var result = Math.random();
 	if(result <= 0.5)
-		document.getElementById('flipResult').innerHTML = "HEAD";
+		document.getElementById('flipResult').innerHTML = "HEADS";
 	else document.getElementById('flipResult').innerHTML = "TAILS";
 }
 
