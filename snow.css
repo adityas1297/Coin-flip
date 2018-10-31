@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: default;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+  font-family: "Lato", "Arial", monospace;
+}
+body * {
+  transition: all 500ms ease;
+}
+
+h1 {
+  line-height: 1;
+  border: solid rgba(255, 255, 255, 0.3);
+  border-width: 5px 0px 0px 0px;
+}
+
+.area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#000, #1a1a1a);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+
+.flake {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+.flake:after {
+  content: ".";
+  color: transparent;
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.flake:nth-child(0):after {
+  box-shadow: 0px 0px 0px 22px rgba(255, 255, 255, 0.4);
+  left: 6vw;
+  top: 51vh;
+  -webkit-animation: snow 18s 0s linear infinite;
+          animation: snow 18s 0s linear infinite;
+}
+.flake:nth-child(1):after {
+  box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.37);
+  left: 80vw;
+  top: 2vh;
+  -webkit-animation: snow 13s 0s linear infinite;
+          animation: snow 13s 0s linear infinite;
+}
+.flake:nth-child(2):after {
+  box-shadow: 0px 0px 0px 16px rgba(255, 255, 255, 0.33);
+  left: 32vw;
+  top: 14vh;
+  -webkit-animation: snow 19s 0s linear infinite;
+          animation: snow 19s 0s linear infinite;
+}
+.flake:nth-child(3):after {
+  box-shadow: 0px 0px 0px 22px rgba(255, 255, 255, 0.34);
+  left: 77vw;
+  top: 42vh;
+  -webkit-animation: snow 13s 0s linear infinite;
+          animation: snow 13s 0s linear infinite;
+}
+.flake:nth-child(4):after {
+  box-shadow: 0px 0px 0px 27px rgba(255, 255, 255, 0.33);
+  left: 81vw;
+  top: 48vh;
+  -webkit-animation: snow 20s 0s linear infinite;
+          animation: snow 20s 0s linear infinite;
+}
+.flake:nth-child(5):after {
+  box-shadow: 0px 0px 0px 12px rgba(255, 255, 255, 0.34);
+  left: 23vw;
+  top: 84vh;
+  -webkit-animation: snow 24s 0s linear infinite;
+          animation: snow 24s 0s linear infinite;
+}
+.flake:nth-child(6):after {
+  box-shadow: 0px 0px 0px 11px rgba(255, 255, 255, 0.32);
+  left: 52vw;
+  top: 77vh;
+  -webkit-animation: snow 17s 0s linear infinite;
+          animation: snow 17s 0s linear infinite;
+}
+.flake:nth-child(7):after {
+  box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0.34);
+  left: 61vw;
+  top: 23vh;
+  -webkit-animation: snow 23s 0s linear infinite;
+          animation: snow 23s 0s linear infinite;
+}
+.flake:nth-child(8):after {
+  box-shadow: 0px 0px 0px 29px rgba(255, 255, 255, 0.4);
+  left: 64vw;
+  top: 17vh;
+  -webkit-animation: snow 16s 0s linear infinite;
+          animation: snow 16s 0s linear infinite;
+}
+.flake:nth-child(9):after {
+  box-shadow: 0px 0px 0px 29px rgba(255, 255, 255, 0.35);
+  left: 40vw;
+  top: 96vh;
+  -webkit-animation: snow 11s 0s linear infinite;
+          animation: snow 11s 0s linear infinite;
+}
+.flake:nth-child(10):after {
+  box-shadow: 0px 0px 0px 13px rgba(255, 255, 255, 0.32);
+  left: 38vw;
+  top: 77vh;
+  -webkit-animation: snow 28s 0s linear infinite;
+          animation: snow 28s 0s linear infinite;
+}
+.flake:nth-child(11):after {
+  box-shadow: 0px 0px 0px 27px rgba(255, 255, 255, 0.4);
+  left: 92vw;
+  top: 17vh;
+  -webkit-animation: snow 13s 0s linear infinite;
+          animation: snow 13s 0s linear infinite;
+}
+.flake:nth-child(12):after {
+  box-shadow: 0px 0px 0px 27px rgba(255, 255, 255, 0.36);
+  left: 48vw;
+  top: 94vh;
+  -webkit-animation: snow 16s 0s linear infinite;
+          animation: snow 16s 0s linear infinite;
+}
+.flake:nth-child(13):after {
+  box-shadow: 0px 0px 0px 24px rgba(255, 255, 255, 0.35);
+  left: 59vw;
+  top: 43vh;
+  -webkit-animation: snow 27s 0s linear infinite;
+          animation: snow 27s 0s linear infinite;
+}
+.flake:nth-child(14):after {
+  box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0.4);
+  left: 44vw;
+  top: 19vh;
+  -webkit-animation: snow 22s 0s linear infinite;
+          animation: snow 22s 0s linear infinite;
+}
+.flake:nth-child(15):after {
+  box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.37);
+  left: 43vw;
+  top: 1vh;
+  -webkit-animation: snow 22s 0s linear infinite;
+          animation: snow 22s 0s linear infinite;
+}
+.flake:nth-child(16):after {
+  box-shadow: 0px 0px 0px 21px rgba(255, 255, 255, 0.38);
+  left: 42vw;
+  top: 52vh;
+  -webkit-animation: snow 29s 0s linear infinite;
+          animation: snow 29s 0s linear infinite;
+}
+.flake:nth-child(17):after {
+  box-shadow: 0px 0px 0px 19px rgba(255, 255, 255, 0.35);
+  left: 78vw;
+  top: 84vh;
+  -webkit-animation: snow 24s 0s linear infinite;
+          animation: snow 24s 0s linear infinite;
+}
+.flake:nth-child(18):after {
+  box-shadow: 0px 0px 0px 29px rgba(255, 255, 255, 0.37);
+  left: 3vw;
+  top: 86vh;
+  -webkit-animation: snow 20s 0s linear infinite;
+          animation: snow 20s 0s linear infinite;
+}
+.flake:nth-child(19):after {
+  box-shadow: 0px 0px 0px 13px rgba(255, 255, 255, 0.35);
+  left: 70vw;
+  top: 27vh;
+  -webkit-animation: snow 16s 0s linear infinite;
+          animation: snow 16s 0s linear infinite;
+}
+.flake:nth-child(20):after {
+  box-shadow: 0px 0px 0px 11px rgba(255, 255, 255, 0.39);
+  left: 99vw;
+  top: 36vh;
+  -webkit-animation: snow 22s 0s linear infinite;
+          animation: snow 22s 0s linear infinite;
+}
+.flake:nth-child(21):after {
+  box-shadow: 0px 0px 0px 19px rgba(255, 255, 255, 0.31);
+  left: 90vw;
+  top: 30vh;
+  -webkit-animation: snow 18s 0s linear infinite;
+          animation: snow 18s 0s linear infinite;
+}
+.flake:nth-child(22):after {
+  box-shadow: 0px 0px 0px 24px rgba(255, 255, 255, 0.34);
+  left: 88vw;
+  top: 24vh;
+  -webkit-animation: snow 23s 0s linear infinite;
+          animation: snow 23s 0s linear infinite;
+}
+.flake:nth-child(23):after {
+  box-shadow: 0px 0px 0px 17px rgba(255, 255, 255, 0.31);
+  left: 3vw;
+  top: 25vh;
+  -webkit-animation: snow 29s 0s linear infinite;
+          animation: snow 29s 0s linear infinite;
+}
+.flake:nth-child(24):after {
+  box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0.36);
+  left: 46vw;
+  top: 7vh;
+  -webkit-animation: snow 21s 0s linear infinite;
+          animation: snow 21s 0s linear infinite;
+}
+.flake:nth-child(25):after {
+  box-shadow: 0px 0px 0px 19px rgba(255, 255, 255, 0.33);
+  left: 92vw;
+  top: 15vh;
+  -webkit-animation: snow 16s 0s linear infinite;
+          animation: snow 16s 0s linear infinite;
+}
+.flake:nth-child(26):after {
+  box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.39);
+  left: 62vw;
+  top: 13vh;
+  -webkit-animation: snow 26s 0s linear infinite;
+          animation: snow 26s 0s linear infinite;
+}
+.flake:nth-child(27):after {
+  box-shadow: 0px 0px 0px 12px rgba(255, 255, 255, 0.35);
+  left: 98vw;
+  top: 59vh;
+  -webkit-animation: snow 26s 0s linear infinite;
+          animation: snow 26s 0s linear infinite;
+}
+.flake:nth-child(28):after {
+  box-shadow: 0px 0px 0px 27px rgba(255, 255, 255, 0.4);
+  left: 16vw;
+  top: 95vh;
+  -webkit-animation: snow 16s 0s linear infinite;
+          animation: snow 16s 0s linear infinite;
+}
+.flake:nth-child(29):after {
+  box-shadow: 0px 0px 0px 24px rgba(255, 255, 255, 0.32);
+  left: 52vw;
+  top: 64vh;
+  -webkit-animation: snow 11s 0s linear infinite;
+          animation: snow 11s 0s linear infinite;
+}
+.flake:nth-child(30):after {
+  box-shadow: 0px 0px 0px 24px rgba(255, 255, 255, 0.32);
+  left: 26vw;
+  top: 13vh;
+  -webkit-animation: snow 27s 0s linear infinite;
+          animation: snow 27s 0s linear infinite;
+}
+.flake:nth-child(31):after {
+  box-shadow: 0px 0px 0px 14px rgba(255, 255, 255, 0.4);
+  left: 5vw;
+  top: 21vh;
+  -webkit-animation: snow 30s 0s linear infinite;
+          animation: snow 30s 0s linear infinite;
+}
+.flake:nth-child(32):after {
+  box-shadow: 0px 0px 0px 24px rgba(255, 255, 255, 0.35);
+  left: 53vw;
+  top: 8vh;
+  -webkit-animation: snow 19s 0s linear infinite;
+          animation: snow 19s 0s linear infinite;
+}
+.flake:nth-child(33):after {
+  box-shadow: 0px 0px 0px 23px rgba(255, 255, 255, 0.39);
+  left: 3vw;
+  top: 36vh;
+  -webkit-animation: snow 15s 0s linear infinite;
+          animation: snow 15s 0s linear infinite;
+}
+.flake:nth-child(34):after {
+  box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0.32);
+  left: 8vw;
+  top: 72vh;
+  -webkit-animation: snow 11s 0s linear infinite;
+          animation: snow 11s 0s linear infinite;
+}
+.flake:nth-child(35):after {
+  box-shadow: 0px 0px 0px 26px rgba(255, 255, 255, 0.38);
+  left: 79vw;
+  top: 80vh;
+  -webkit-animation: snow 15s 0s linear infinite;
+          animation: snow 15s 0s linear infinite;
+}
+.flake:nth-child(36):after {
+  box-shadow: 0px 0px 0px 19px rgba(255, 255, 255, 0.35);
+  left: 38vw;
+  top: 33vh;
+  -webkit-animation: snow 13s 0s linear infinite;
+          animation: snow 13s 0s linear infinite;
+}
+.flake:nth-child(37):after {
+  box-shadow: 0px 0px 0px 17px rgba(255, 255, 255, 0.36);
+  left: 39vw;
+  top: 6vh;
+  -webkit-animation: snow 24s 0s linear infinite;
+          animation: snow 24s 0s linear infinite;
+}
+.flake:nth-child(38):after {
+  box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.34);
+  left: 77vw;
+  top: 58vh;
+  -webkit-animation: snow 28s 0s linear infinite;
+          animation: snow 28s 0s linear infinite;
+}
+.flake:nth-child(39):after {
+  box-shadow: 0px 0px 0px 13px rgba(255, 255, 255, 0.4);
+  left: 69vw;
+  top: 4vh;
+  -webkit-animation: snow 26s 0s linear infinite;
+          animation: snow 26s 0s linear infinite;
+}
+.flake:nth-child(40):after {
+  box-shadow: 0px 0px 0px 22px rgba(255, 255, 255, 0.37);
+  left: 54vw;
+  top: 74vh;
+  -webkit-animation: snow 16s 0s linear infinite;
+          animation: snow 16s 0s linear infinite;
+}
+
+@-webkit-keyframes snow {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: -50vh;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    margin-top: 50vh;
+    opacity: 0;
+  }
+}
+
+@keyframes snow {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: -50vh;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    margin-top: 50vh;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+}
+
+/*button{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 40px;
+	position: absolute;
+	left: 45%;
+	top: 50%;
+}
+*/
+#flipResult{
+	padding: 20px;
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+	position: absolute;
+	/*left: 4%;*/
+	top: 33%;
+}
+.button0{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 40px;
+	position: absolute;
+	left: 35%;
+	top: 50%;
+}
+.button1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 40px;
+	position: absolute;
+	left: 55%;
+	top: 50%;
+}
